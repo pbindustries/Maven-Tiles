@@ -11,6 +11,7 @@
 
 <modules>
     <module>maven-ktlint-tile</module>
+    <module>maven-kotlin-compiler-tile</module>
 </modules>
 
 </project>
