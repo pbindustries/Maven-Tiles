@@ -10,6 +10,7 @@
 <packaging>pom</packaging>
 
 <modules>
+    <module>maven-dependency-tile</module>
     <module>maven-kotlin-compiler-tile</module>
     <module>maven-ktlint-tile</module>
     <module>maven-spark-tile</module>

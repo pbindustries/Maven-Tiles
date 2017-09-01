@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+    <properties>
+        <maven-dependency-plugin.version>3.0.1</maven-dependency-plugin.version>
+        <maven-dependency-plugin.failOnWarning>true</maven-dependency-plugin.failOnWarning>
+        <maven-dependency-plugin.verbose>false</maven-dependency-plugin.verbose>
+        <maven-dependency-plugin.outputXML>true</maven-dependency-plugin.outputXML>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>${maven-dependency-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>analyze</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>analyze-only</goal>
+                        </goals>
+                        <configuration>
+                            <failOnWarning>${maven-dependency-plugin.failOnWarning}</failOnWarning>
+                            <verbose>${maven-dependency-plugin.verbose}</verbose>
+                            <outputXML>${maven-dependency-plugin.outputXML}</outputXML>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
