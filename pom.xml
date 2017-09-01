@@ -14,8 +14,7 @@
     <module>maven-ktlint-tile</module>
     <module>maven-spark-tile</module>
     <module>maven-stock-tile</module>
-    <module>mavenshadetile</module>
-    <module>maven-dependency-tile</module>
+    <module>maven-shade-tile</module>
 </modules>
 
 </project>
