@@ -2,7 +2,7 @@
 Maven tiles for use in other projects
 ## Installation
 Either download this repository as a zip or clone it.
-##Current Tiles 
+## Current Tiles 
 * Dependency Plugin - [More Info](https://maven.apache.org/plugins/maven-dependency-plugin/)
 * Kotlin Compiler - [More Info](https://kotlinlang.org/docs/reference/using-maven.html)
 * Ktlint - Kotlin linter - [More Info](https://github.com/shyiko/ktlint)
